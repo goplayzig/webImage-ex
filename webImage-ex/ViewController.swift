@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myImageView: UIImageView!
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() //뷰 로딩 후 
         
         let stringurl = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/225px-Flag_of_South_Korea.svg.png" //태극기 이미지 주소
         
@@ -22,6 +22,7 @@ class ViewController: UIViewController {
                 Data) //변환된 데이터 출력
 
             }
+         
             
         }
         
